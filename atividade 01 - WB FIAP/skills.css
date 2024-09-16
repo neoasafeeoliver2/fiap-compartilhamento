@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat';
+    height: 100vh;
+}
+
+.content-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/foto-rio-desfocada.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    z-index: -1; /* Mantém a imagem atrás do conteúdo */
+}
+
+.formation-div{
+    display: flex;
+}
+.formation-content{
+    background-image: url(img/skills-content.png);
+    background-size: cover;
+    width: 1000px;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.582);
+}
+.formation-content img{
+    width: 70%;
+    z-index: -1;
+}
